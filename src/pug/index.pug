@@ -1,0 +1,231 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Mon portfolio
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Harmane Houda
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') À propos
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projetsacademiques') Projets Académiques
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Compétences
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Centres d'intérêt
+
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Harmane 
+                        span.text-primary Houda
+                    .subheading.mb-5
+                        | Casablanca, Maroc · +212 649 875 606
+                        a(href='mailto:houdaharmane2004@gmail.com')  houdaharmane2004@gmail.com ·    github.com/houdaharmane
+                    p.lead.mb-5
+                        | Développeuse web et mobile passionnée, j’ai conçu plusieurs projets concrets en utilisant des frameworks modernes tels que Spring Boot et React. Grâce à mes compétences en développement full stack et en analyse de données, je conçois des solutions performantes et orientées utilisateur. Curieuse, rigoureuse et autonome, je m’épanouis dans les environnements dynamiques qui encouragent l’innovation et l’apprentissage.
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/houdaharmane')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/houdaharmane')
+                            i.fab.fa-github
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Stage en Développement d’un Moteur de Recherche de CVs
+                            .subheading.mb-3 BINARIOS
+                            p
+                                | Développement d’une application Spring Boot intégrant Elasticsearch pour une recherche optimisée de CVs. Automatisation de l’indexation des fichiers avec FSCrawler. Conception d’une interface utilisateur intuitive facilitant la navigation et la recherche rapide. Renforcement des compétences en backend, recherche de données et intégration de technologies Big Data.
+                        .flex-shrink-0
+                            span.text-primary Avril 2024 - Juin 2024
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Stage en Analyse et Traitement de Données
+                            .subheading.mb-3 MarocMétrie
+                            p
+                                | Analyse et transformation de données CSV avec Python et Pandas. Calcul des taux de répondants par région pour des rapports statistiques précis. Export des résultats sous format Excel, avec un workflow automatisé. Développement de compétences en data wrangling, traitement et visualisation de données.
+                        .flex-shrink-0
+                            span.text-primary Juillet 2023 à Août 2023
+
+                    
+
+            hr.m-0
+            // Education
+            section#education.resume-section
+               .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Licence en Ingénierie des Applications Web et Mobile
+                            .subheading.mb-3 École Supérieure de Technologie de Salé
+                        .flex-shrink-0
+                            span.text-primary  (En cours d'obtention – 2025)
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 DUT en Génie Informatique
+                            .subheading.mb-3 École Supérieure de Technologie de Sidi Bennour
+                        .flex-shrink-0
+                            span.text-primary (2022-2024)
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Baccalauréat en Sciences Physiques – Option Français
+                            .subheading.mb-3 Lycée Sidi Bennour
+                        .flex-shrink-0
+                            span.text-primary (2021 – 2022)
+
+
+
+            hr.m-0
+
+            // Projets Académiques
+            section#projetsacademiques.resume-section
+                .resume-section-content
+                    h2.mb-5 Projets Académiques
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Telemedecin App – Application mobile de téléconsultation
+                            .subheading.mb-3 React Native, Expo, Jitsi Meet
+                            div Développement d’une application mobile moderne destinée aux professionnels de santé, intégrant un système d’authentification sécurisé, la gestion des dossiers patients, l’historique des consultations, la prise de notes, et la téléconsultation via Jitsi Meet. L’architecture est modulaire et le projet a été réalisé avec Expo pour le test et le déploiement
+                        .flex-shrink-0
+                            span.text-primary 2024
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Plateforme de gestion des dons – Séisme d’El Haouz
+                            .subheading.mb-3 Python, MySQL, HTML, CSS, JavaScript
+                            div Conception et développement d’une plateforme dédiée à la gestion desdons pour les victimes du séisme d’El Haouz, avec une interface intuitive en HTML/CSS/JavaScript, une base de données MySQL, la génération automatique de reçus PDF, des paiements sécurisés (cartes, PayPal, virements), et une modélisation UML du système
+                        .flex-shrink-0
+                            span.text-primary 2022
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Système de gestion des demandes d’achat pour université
+                            .subheading.mb-3 React.js, Express.js,MySql
+                            div Développement d’une application web pour centraliser, suivre et valider les demandes d’achat au sein d’un établissement universitaire. Interfaces adaptées aux différents rôles (enseignants, chefs de département, direction, comptable). Suivi en temps réel, notifications automatiques et tableau de bord statistique.
+                        .flex-shrink-0
+                            span.text-primary 2025
+                            
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Optimisation de la prise de notes étudiante
+                            .subheading.mb-3 Design Thinking, UI/UX, Figma
+                            div Analyse des besoins étudiants à l’aide du Mind Mapping et de l’Empathy Map dans une approche Design Thinking. Conception d’une solution innovante pour améliorer la prise de notes, avec des maquettes interactives sur Figma, intégrant les bonnes pratiques UI/UX. Tests utilisateurs réalisés pour affiner les prototypes.
+                        .flex-shrink-0
+                            span.text-primary 2023
+            hr.m-0
+
+            
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Compétences
+                    .subheading.mb-3  Langages de programmation & Outils
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-html5
+                        li.list-inline-item
+                            i.fab.fa-css3-alt
+                        li.list-inline-item
+                            i.fab.fa-js-square
+                        li.list-inline-item
+                            i.fab.fa-java
+                        li.list-inline-item
+                            i.fab.fa-react
+                        li.list-inline-item
+                            i.fab.fa-node-js
+                        li.list-inline-item
+                            i.fab.fa-python
+                        li.list-inline-item
+                            i.fab.fa-figma
+                        li.list-inline-item
+                            i.fab.fa-npm
+                    .subheading.mb-3 Workflow
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            |Bases de données : MySQL, Elasticsearch
+
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Outils d’analyse de données : Pandas, NumPy
+
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Frameworks et bibliothèques : Spring Boot,, ReactJS, React Native, Expo
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Méthodologies : Design Thinking, UML, Agile
+            hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p
+                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+                    p.mb-0
+                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+
+            hr.m-0
+
+           
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
