@@ -29,7 +29,7 @@ html(lang='en')
             a.navbar-brand.js-scroll-trigger(href='#page-top')
                 span.d-block.d-lg-none Harmane Houda
                 span.d-none.d-lg-block
-                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
+                img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(style='width: 160px; height: 180px;', src='assets/img/profile.jpg', alt='...')
             button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                 span.navbar-toggler-icon
             #navbarResponsive.collapse.navbar-collapse
@@ -44,8 +44,6 @@ html(lang='en')
                         a.nav-link.js-scroll-trigger(href='#projetsacademiques') Projets Académiques
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Compétences
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Centres d'intérêt
 
 
         // Page Content
@@ -212,17 +210,7 @@ html(lang='en')
                             | Méthodologies : Design Thinking, UML, Agile
             hr.m-0
 
-            // Interests
-            section#interests.resume-section
-                .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-                    p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
-
-            hr.m-0
-
+           
            
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
